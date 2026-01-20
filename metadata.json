@@ -1,0 +1,7 @@
+{
+  "name": "Doux GM Synthesizer",
+  "description": "A General MIDI compliant web synthesizer using the Doux audio engine architecture. Features real-time MIDI support, 16-channel mixing, and procedural sound generation.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

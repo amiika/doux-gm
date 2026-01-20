@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doux GM Synthesizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Cross-Origin Isolation for SharedArrayBuffer/WASM -->
+    <script src="/coi-serviceworker.min.js"></script>
+    <style>
+      /* Custom Scrollbar for Sleek White Theme */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f4f4f5; /* zinc-100 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #d4d4d8; /* zinc-300 */
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #a1a1aa; /* zinc-400 */
+      }
+    </style>
+
+</head>
+  <body class="bg-zinc-50 text-zinc-900 overflow-hidden antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
